@@ -1,0 +1,19 @@
+#hero_img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+ul img {
+    width: 20%;
+    border-radius: 50%;
+    border: 20px solid rgb(78, 78, 78);
+    margin: 5%;
+}
+
+ul {
+    display: inline-block;
+}
