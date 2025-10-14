@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
 :root {
-    --primary-color: #FEFEFE   ;
-    --secondary-color: #97D4E2 ;
+    --primary-color: #FEFEFE;
+    --secondary-color: #97D4E2;
     --accent1-color: #0C4166;
     --accent2-color: #8DAABE;
+    --rock-salt-family: "Rock Salt", Helvetica, sans-serif;
+    --roboto-family: Roboto, Helvetica, sans-serif;
 }
 
 header {
     background-color: var(--secondary-color);
+    font-family: var(--roboto-family);
 }
 
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -22,6 +28,9 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: var(--rock-salt-family);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -35,11 +44,21 @@ h4 {
 
 body {
     background-color: var(--primary-color);
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    font-family: var(--roboto-family);
+}
+
+h2 {
+    margin: 0;
 }
 
 footer {
     background-color: var(--accent1-color);
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -59,10 +78,18 @@ footer a:hover {
     color: var(--secondary-color);
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .book, .join {
     background-color: var(--secondary-color);
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -72,14 +99,19 @@ footer a:hover {
 
 .msg {
     background-color: var(--secondary-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: black;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -94,6 +126,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: var(--secondary-color);
@@ -103,6 +139,22 @@ main section {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 #hero-img {
     width: 100%;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+
+.card-img {
+    border: 10px solid var(--accent2-color);
 }
