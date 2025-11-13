@@ -234,7 +234,66 @@ main section img {
     box-shadow: 5px 5px 10px var(--accent1-color);
 }
 
+/* rates.html */
 
+.rates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#rates-header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 1;
+    justify-self: center;
+}
+
+#rates-img {
+    grid-column: 2/3;
+    justify-self: center;
+    margin: auto;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 25vw;
+}
+
+.trips {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.trips ul li {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#trip3, #trip4 {
+    margin-bottom: -140px;
+}
+
+#trip1, #trip3 {
+    grid-column: 1/2;
+}
+
+#trip2, #trip4 {
+    grid-column: 3/4;
+}
+
+#trip1, #trip2 {
+    grid-row: 2/3;
+}
+
+#trip3, #trip4 {
+    grid-row: 3/4;
+}
+
+/* media queries, keep at the end */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
