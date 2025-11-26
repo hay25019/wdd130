@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    background-color: grey;
+    height: 100px;
+}
+header a {
+    align-content: center;
+    text-align: center;
+}
+header img {
+    grid-column: 4/5;
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+main img {
+    margin: auto;
+    width: 70%;
+}
+#descision, main select, #questions, #email, #number {
+    grid-column: 1/4;
+}
+#questions, #email, #number {
+    grid-row: 5/6;
+}
+#questions {
+    height: 50px;
+}
+#email {
+    align-content: center;
+}
+#number {
+    align-content: end;
+}
+main select {
+    width: 140px;
+    margin: auto;
+}
+
+footer {
+    background-color: gray;
+}
+footer img {
+    width: 10%;
+}
