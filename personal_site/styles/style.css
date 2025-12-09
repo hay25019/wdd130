@@ -28,6 +28,12 @@ body {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
+p, label, li {
+    font-family: var(--paragraph-font);
+}
+a, h1 {
+    font-family: var(--heading-font);
+}
 
 header nav {
     display: grid;
