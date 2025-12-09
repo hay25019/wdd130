@@ -113,6 +113,8 @@ footer a:hover {
     color: var(--nav-hover-link-color);
 }
 footer p {
+    text-align: center;
+    color: var(--paragraph-color-on-white);
     grid-column: 3;
     font-size: 15px;
 }
