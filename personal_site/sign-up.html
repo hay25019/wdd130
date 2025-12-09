@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="styles/sign-up.css">
 </head>
 <body>
     <header>
@@ -15,38 +16,44 @@
         </nav>
     </header>
     <main>
-        <h1>Sign Up</h1>
-        <p>If you have a youth that wants to participate, please have them fill out the form below.</p>
-        <form>
-            <label for="enter-name">Please enter your name:</label>
-            <input type="text" id="enter-name">
-            <label for="enter-age">Please enter your age:</label>
-            <input type="text" id="enter-age">
-            <p>Please select the play/s you would like to audition for:</p>
-            <select>
-                <option>Select an option</option>
-                <option>Treasure Island</option>
-                <option>Captain Hook</option>
-                <option>Beauty and the Beast</option>
-                <option>Jasmine and the Lamp</option>
-                <option>The Forest Prince</option>
-                <option>Rapunzel</option>
-                <option>The Snow Queen</option>
-                <option>Jack and the Beanstalk</option>
-            </select>
-        </form>
-        <img src="images/ticket.jpg" alt="tickets" style="width: 20vw;">
-        <img src="images/neon-dollar.jpg" alt="neon dollar" style="width: 20vw;">
-        <h1>Tickets</h1>
-        <p>Ticket prices:</p>
-        <ul>
-            <li>Under 3: Free</li>
-            <li>4 to 17: $3.50</li>
-            <li>18 to 69: $4.50</li>
-            <li>70+: $3.00</li>
-        </ul>
-        <p>Audition price: $3.00</p>
-        <p>Family members of attending youth get a 10% discount.</p>
+        <div id="signup">
+            <h1>Sign Up</h1>
+            <p>If you have a youth that wants to participate, please have them fill out the form below.</p>
+            <form>
+                <label for="enter-name">Please enter your name:</label>
+                <input type="text" id="enter-name">
+                <label for="enter-age">Please enter your age:</label>
+                <input type="text" id="enter-age">
+                <p>Please select the play/s you would like to audition for:</p>
+                <select>
+                    <option>Select an option</option>
+                    <option>Treasure Island</option>
+                    <option>Captain Hook</option>
+                    <option>Beauty and the Beast</option>
+                    <option>Jasmine and the Lamp</option>
+                    <option>The Forest Prince</option>
+                    <option>Rapunzel</option>
+                    <option>The Snow Queen</option>
+                    <option>Jack and the Beanstalk</option>
+                </select>
+            </form>
+        </div>
+        <div id="images">
+            <img src="images/ticket.jpg" alt="tickets" style="width: 20vw;">
+            <img src="images/neon-dollar.jpg" alt="neon dollar" style="width: 20vw;">
+        </div>
+        <div id="ticket">
+            <h1>Tickets</h1>
+            <p>Ticket prices:</p>
+            <ul>
+                <li>Under 3: Free</li>
+                <li>4 to 17: $3.50</li>
+                <li>18 to 69: $4.50</li>
+                <li>70+: $3.00</li>
+            </ul>
+            <p>Audition price: $3.00</p>
+            <p>Family members of attending youth get a 10% discount.</p>
+        </div>
     </main>
     <footer>
         <img src="images/theater-logo.png" alt="site logo">
